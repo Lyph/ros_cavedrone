@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mesa/ros_cavedrone/devel/setup.sh

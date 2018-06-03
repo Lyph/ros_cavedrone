@@ -1,0 +1,6 @@
+<launch>
+	<include file="/home/mesa/catkin_ws/src/mavros/mavros/launch/px4.launch"/>
+	<include file="/opt/ros/kinetic/share/freenect_launch/launch/freenect.launch"/>	
+	<node name= "foo" pkg= "ORB_SLAM2" type= "RGBD" args= "/home/mesa/cavedrone/ORB_SLAM2/Vocabulary/ORBvoc.txt /home/mesa/cavedrone/ORB_SLAM2/tcp_rgbd/bin/kinect.yaml" />
+
+</launch>

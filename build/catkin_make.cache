@@ -1,0 +1,2 @@
+cavepkg
+-DCATKIN_DEVEL_PREFIX=/home/mesa/ros_cavedrone/devel -DCMAKE_INSTALL_PREFIX=/home/mesa/ros_cavedrone/install -G Unix Makefiles
